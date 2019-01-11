@@ -6,16 +6,15 @@ using namespace std;
 
 int main(){
 
-	cout << "Witaj!"
-	cout << "Podaj liczbe";
-	int a;
-	cin >> a;
-	boolean even=even(a);
-	if(even==true){
-		cout << "Zmienna parzysta";
+	cout << "Podaj liczbe:";
+	int b;
+	cin >> b;
+	boolean rowne=even(b);
+	if(rowne!=true){
+		cout << "Zmienna nieparzysta";
 	}
 	else{
-		cout << "Zmienna nieparzysta";
+		cout << "Zmienna parzysta";
 	}
 
 	_getch();
