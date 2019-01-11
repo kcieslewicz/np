@@ -6,6 +6,7 @@ using namespace std;
 
 int main(){
 	cout << "Witaj!";
+	//Kod do wykonania funkcji od Karola
 	cout << "Podaj liczbe:";
 	int a;
 	cin >> a;
@@ -17,6 +18,8 @@ int main(){
 	else{
 		cout << "Zmienna nieparzysta";
 	}
+	//koniec kodu do wykonania funkcji od Karola
+
 
 	_getch();
 	return 0;
