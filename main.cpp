@@ -5,13 +5,13 @@
 using namespace std;
 
 int main(){
-
+	cout << "Witaj!";
 	cout << "Podaj liczbe:";
 	int a;
 	cin >> a;
-	boolean check=even(a);
+	boolean even=even(a);
 	cout << "Czy liczba jest parzysta?";
-	if(check==true){
+	if(even==true){
 		cout << "Zmienna parzysta";
 	}
 	else{
