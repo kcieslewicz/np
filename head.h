@@ -1,0 +1,1 @@
+int potegowanie(int liczba, int potega);

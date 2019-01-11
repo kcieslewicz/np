@@ -1,12 +1,14 @@
+#include <math.h>
 
 
+int potegowanie(int liczba, int potega){
 
-using namespace std;
+int wynik;
 
-int funkcja()
-{
+ wynik=pow(liczba, potega);
+ return wynik;
 
-//drobne zmiany
 
-    return 0;
+_getch();
+
 }
