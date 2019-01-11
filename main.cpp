@@ -7,14 +7,15 @@ using namespace std;
 int main(){
 
 	cout << "Podaj liczbe:";
-	int b;
-	cin >> b;
-	boolean rowne=even(b);
-	if(rowne!=true){
-		cout << "Zmienna nieparzysta";
+	int a;
+	cin >> a;
+	boolean check=even(a);
+	cout << "Czy liczba jest parzysta?";
+	if(check==true){
+		cout << "Zmienna parzysta";
 	}
 	else{
-		cout << "Zmienna parzysta";
+		cout << "Zmienna nieparzysta";
 	}
 
 	_getch();
