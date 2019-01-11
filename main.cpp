@@ -6,8 +6,9 @@ using namespace std;
 
 int main(){
 
-	int a;
+	cout << "Witaj!"
 	cout << "Podaj liczbe";
+	int a;
 	cin >> a;
 	boolean even=even(a);
 	if(even==true){
