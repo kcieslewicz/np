@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 #include <head.h>
 
 using namespace std;
@@ -20,7 +19,5 @@ int main(){
 	}
 	//koniec kodu do wykonania funkcji od Karola
 
-
-	_getch();
 	return 0;
 }
