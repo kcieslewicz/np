@@ -9,9 +9,9 @@ int main(){
 	cout << "Podaj liczbe:";
 	int a;
 	cin >> a;
-	boolean even=even(a);
+	bool evenv=even(a);
 	cout << "Czy liczba jest parzysta?";
-	if(even==true){
+	if(evenv==true){
 		cout << "Zmienna parzysta";
 	}
 	else{

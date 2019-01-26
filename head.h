@@ -1,1 +1,1 @@
-boolean even(int a);
+bool even(int a);
