@@ -1,5 +1,6 @@
 #include <iostream>
 #include "head.h"
+#include "funkcja4.h"
 
 using namespace std;
 
@@ -12,12 +13,17 @@ int main(){
 	bool evenv=even(a);
 	cout << "Czy liczba jest parzysta?";
 	if(evenv==true){
-		cout << "Zmienna parzysta";
+		cout << "Zmienna parzysta" << endl;
 	}
 	else{
-		cout << "Zmienna nieparzysta";
+		cout << "Zmienna nieparzysta" << endl;
 	}
 	//koniec kodu do wykonania funkcji od Karola
+
+	Doda x; //Kod Szymona
+	x.doda();
+
+
 
 	return 0;
 }
