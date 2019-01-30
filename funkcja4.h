@@ -2,15 +2,15 @@
 
 using namespace std;
 
-class Doda
+	class Doda
 {
 public:
-	double test, test13;
-	double doda(){
+		double a, b;
+		double doda(){
 
-	cout << "Podaj dwie cyfry: ";
-	cin >> a >> b;
-	cout << a << "+" << b << "Rowna sie: " << a+b<< "/n";
-	return 0;
+		cout << "Podaj dwie cyfry: ";
+		cin >> a >> b;
+		cout << a << "+" << b << "Rowna sie: " << a+b<< "/n";
+		return 0;
 };
 
