@@ -7,7 +7,8 @@ public:
 	double doda(){
 
 	cout << "Podaj dwie cyfry: ";
-
+	cin >> a >> b;
+	cout << a << + << b
 
 };
 
