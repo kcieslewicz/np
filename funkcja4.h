@@ -1,10 +1,11 @@
 #include <iostream>
+
 using namespace std;
 
 class Doda
 {
 public:
-	double a, b;
+	double test, test13;
 	double doda(){
 
 	cout << "Podaj dwie cyfry: ";
